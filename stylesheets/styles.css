@@ -322,3 +322,53 @@ footer {
     color:#444;
   }
 }
+
+
+
+.hidden{
+  display:none;
+}
+.univer-logo{
+    float: right;
+    width: 100px;
+}
+.gradoservice-logo{
+    float: right;
+        width: 150px;
+}
+.vacation{
+      margin-bottom: 5px;
+}
+.title-middle{
+    display: block;
+    color: #575C5F;
+    font-size: 14px;
+    font-weight: normal;
+}
+.interval{
+    display: block;
+    font-size: 12px;
+    color: #66696a;
+    font-weight: normal;
+    padding-top: 0px;
+    padding-bottom: 15px;
+}
+.bordered{
+  border-radius: 20px;
+}
+.product-logo{
+      width: 100px;
+    float: left;
+    margin: 0px 30px;
+}
+.product-row{
+  display: inline-block;
+      margin: 20px 0;
+}
+.product-row span{
+      margin-left: 160px;
+    display: block;
+}
+.screen{
+  margin-top: 20px;
+}
