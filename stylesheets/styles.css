@@ -372,3 +372,10 @@ footer {
 .screen{
   margin-top: 20px;
 }
+.store-btns-container{
+  margin-top:10px;
+}
+.store-btns-container img{
+  width: 100px;
+  margin-right: 5px;  
+}
