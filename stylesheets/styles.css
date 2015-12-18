@@ -363,10 +363,10 @@ footer {
 }
 .product-row{
   display: inline-block;
-      margin: 20px 0;
+  margin: 0 0 20px 0;
 }
 .product-row span{
-      margin-left: 160px;
+    margin-left: 160px;
     display: block;
 }
 .screen{
