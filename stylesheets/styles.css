@@ -313,6 +313,12 @@ footer {
   header li, header ul li + li + li {
     width:33%;
   }
+  .product-logo{
+    margin: 0;
+  }
+  .product-row span{
+    margin-left: 120px;
+  }
 }
 
 @media print {
