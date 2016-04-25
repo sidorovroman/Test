@@ -294,6 +294,12 @@ footer {
     margin-left: 140px;
     display: block;
 }
+.product-row span.date{
+    font-size: 12px;
+}
+.product-row span.skypark-name{
+  margin-top: 10px;
+}
 .screen{
   margin-top: 20px;
 }
