@@ -381,6 +381,9 @@ footer {
   .product-row span{
     margin-left: 120px;
   }
+  .product-row .skypark-link {
+    margin-left: 20px;
+  }
 }
 
 @media print {
