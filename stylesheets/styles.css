@@ -297,8 +297,8 @@ footer {
 .product-row span.date{
     font-size: 12px;
 }
-.product-row span.skypark-name{
-  margin-top: 10px;
+.product-row span.skypark-link{
+  margin-left: 10px;
 }
 .screen{
   margin-top: 20px;
