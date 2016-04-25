@@ -297,7 +297,7 @@ footer {
 .product-row span.date{
     font-size: 12px;
 }
-.product-row span.skypark-link{
+.product-row .skypark-link{
   margin-left: 10px;
 }
 .screen{
