@@ -56,10 +56,10 @@
 
 body {
   background-color: #fff;
-  padding:50px;
   font: 14px/1.5 "Noto Sans", "Helvetica Neue", Helvetica, Arial, sans-serif;
   color:#727272;
   font-weight:400;
+  position: relative; 
 }
 
 h1, h2, h3, h4, h5, h6 {
@@ -110,6 +110,7 @@ a:hover small {
 .wrapper {
   width:860px;
   margin:0 auto;
+  padding:50px;
 }
 
 blockquote {
@@ -248,8 +249,18 @@ footer {
   -webkit-font-smoothing:subpixel-antialiased;
 }
 
-
-
+.langs{
+ /* text-align: right;
+  position: absolute;
+  right: 0;
+  top: 0;*/
+}
+.btn-lang{
+  cursor: pointer;
+}
+.ru{
+  display: none;
+}
 .hidden{
   display:none;
 }
@@ -332,10 +343,16 @@ footer {
     width:auto;
     margin:0;
   }
+  .langs{
+    text-align: right;
+    position: absolute;
+    right: 0;
+    top: 0;
+  }
 
   header, section, footer {
     float:none;
-    position:static;
+    position:relative;
     width:auto;
   }
 
@@ -380,7 +397,7 @@ footer {
 }
 
 @media print, screen and (max-width: 480px) {
-  body {
+  .wrapper {
     padding:15px;
   }
 
@@ -400,8 +417,10 @@ footer {
 }
 
 @media print {
-  body {
+  .wrapper{
     padding:0.4in;
+  }
+  body {
     font-size:12pt;
     color:#444;
   }
