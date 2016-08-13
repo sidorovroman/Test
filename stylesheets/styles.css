@@ -339,6 +339,12 @@ footer {
   width: 100px;
   margin-right: 5px;  
 }
+.skypark{
+  padding-top: 15px;
+}
+.setinbox{
+  padding-top: 5px
+}
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
