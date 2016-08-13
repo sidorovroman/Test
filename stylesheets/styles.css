@@ -276,13 +276,11 @@ footer {
       margin-bottom: 5px;
 }
 .title-middle{
-    display: block;
     color: #575C5F;
     font-size: 14px;
     font-weight: normal;
 }
 .interval{
-    display: block;
     font-size: 12px;
     color: #66696a;
     font-weight: normal;
