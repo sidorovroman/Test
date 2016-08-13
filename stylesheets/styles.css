@@ -345,6 +345,9 @@ footer {
 .setinbox{
   padding-top: 5px
 }
+.social img{
+  width: 32px;
+}
 @media print, screen and (max-width: 960px) {
 
   div.wrapper {
