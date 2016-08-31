@@ -228,10 +228,25 @@ header ul a strong {
   color:#222;
 }
 
+.top-divider{
+  display: none;
+  margin: 20px 0;
+  height: 1px;
+  width: 100%;
+  background: #EAEAEA;
+}
+
 section {
   width:500px;
   float:right;
   padding-bottom:50px;
+}
+section .divider{
+  display: inline-block;
+  margin: 20px 0;
+  height: 1px;
+  width: 100%;
+  background: #EAEAEA;
 }
 
 section .skills i{
@@ -245,6 +260,7 @@ section .skills i{
   border-right: 1px solid #ddd;
   color: #333;
 }
+
 small {
   font-size:11px;
 }
@@ -383,10 +399,11 @@ footer {
   }
 
   section {
-    border:1px solid #e5e5e5;
-    border-width:1px 0;
-    padding:20px 0;
     margin:0 0 20px;
+  }
+
+  .top-divider{
+    display: inline-block;
   }
 
   header a small {
