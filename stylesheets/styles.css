@@ -378,6 +378,17 @@ footer {
     margin:0 0 20px;
   }
 
+  section .skills i{
+    display: inline-block;
+    padding: 5px;
+    border-radius: 3px;
+    background-color: #eee;
+    position: relative;
+    border-bottom: 1px solid #ddd;
+    border-right: 1px solid #ddd;
+    color: #333;
+  }
+
   header a small {
     display:inline;
   }
